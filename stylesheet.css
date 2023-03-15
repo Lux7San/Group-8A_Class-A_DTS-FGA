@@ -168,10 +168,9 @@ nav h2{
 
 .main2_container {
     display: flex;
-    position:relative;
-    top: 50%;
-    left: 20%;
-    padding: 5% 0 5% 0;
+    padding: 50px 5% 0 10%;
+    gap: 1%;
+    
     
 }
 .main2_info {
