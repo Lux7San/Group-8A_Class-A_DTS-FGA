@@ -1,7 +1,155 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 /* Header */
+
+header{
+    height: 65px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+nav h2{
+    font-weight: bold;
+}
+
+.nav-link{
+    display: flex;
+    gap: 10%;
+    justify-content: flex-end;
+}
+
+.nav-link a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 /* Main 1 */
 
+.hero{
+    background-color: #d4e7e8;
+    padding: 50px 5% 0 10%;
+    display: flex;
+    gap: 1%;
+}
+
+.hero img{
+    width: 50%;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    width: 50%;
+    gap: 10px;
+}
+
+.hero-deskrip{
+    max-width: 400px;
+}
+
+.hero-deskrip h2{
+    font-size: 24px;
+    margin-bottom: 3px;
+    font-family: 'Poppins';
+}
+
+.hero-deskrip h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero-deskrip p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.hero-deskrip a{
+    padding: 30px;
+    display: inline-block;
+    margin: 15px;
+    width: 50%;
+    background-color: #285151;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.hero-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.hero-right{
+    display: flex;
+    width: 60%;
+    gap: 2%;
+    align-items: flex-end;
+}
+
+.hero-right img{
+    height: 70%;
+}
+
+.bagfit{
+    margin-bottom: 30%;
+}
 /* Main 2 */
 
 /* Main 3 */
