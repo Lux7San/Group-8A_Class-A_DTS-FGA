@@ -1,3 +1,11 @@
+/* CSS RESET */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, input, textarea div {
+  margin: 0;
+  padding: 0;
+}
+
 /* Header */
 
 /* Main 1 */
@@ -7,5 +15,62 @@
 /* Main 3 */
 
 /* Form */
+.formulir-wrapper {
+    width: 100%;
+    height: 1000px;
+}
+.formulir {
+    width: 70%;
+    height: 90%;
+    background-color: #D4E7E8;
+    float: left;   
+}
+.formulir h3 {
+    margin: 10% 10% 5% 10%;
+}
+.formulir p {
+    margin: 1% 10%;
+}
+ .formulir input {
+    padding: 2% 25%;
+    margin: 2% 1% 2% 10%;
+    border: 0;
+ }
+ .formulir textarea {
+    margin: 1% 10%;
+    padding: 2% 20.5%;
+    resize: none;
+    border: 0;
+ }
+img {
+    float: right;
+    width: 30%;
+    height: 67%;
+    position: relative;
+    right: 10%;
+    margin-top: 7.5%;
+}
+.formulir .btn {
+    border-radius: 50px;
+    background-color: #285151;
+    margin-top: 2%;
+    padding: 2% 10%;
+}
 
 /* Footer */
+footer {
+    list-style: none;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+footer .copyright {
+    width: 60%;
+    margin-top: 2.5%;
+    text-align: right;
+    margin-right: 10%;
+}
+footer .kosong {
+    width: 40%;
+    background-color: #D4E7E8;
+}
