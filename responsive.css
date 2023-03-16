@@ -1,11 +1,16 @@
 /*Tablet */
 @media (max-width: 1000px ){
     .formulir{
-        width: 100%;
-      }
-      .img_form{
-        display: none;
-      }
+      width: 100%;
+    }
+
+    .img_form{
+      display: none;
+    }
+
+    .main2_container{
+      padding: 5% 15% 5% 15%;  
+    }
 }
 
 @media (max-width:670px) {

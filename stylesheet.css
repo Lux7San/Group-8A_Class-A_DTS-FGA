@@ -176,8 +176,10 @@ nav h2{
 
 .main2_container {
     display: flex;
-    padding: 50px 5% 0 10%;
-    gap: 1%;
+    position:relative;
+    align-items: center;
+    top: 50%;
+    padding: 5% 15% 5% 20%;  
 }
 
 .main2_info {
@@ -243,6 +245,7 @@ nav h2{
 .main3 {
     margin-top: 100px;
     color: #1F3031;
+    padding: 5% 8%;
 }
 
 .main3_title {
@@ -312,7 +315,7 @@ nav h2{
 img {
     float: right;
     width: 30%;
-    height: 67%;
+    /* height: 67%; */
     position: relative;
     right: 10%;
     margin-top: 7.5%;
