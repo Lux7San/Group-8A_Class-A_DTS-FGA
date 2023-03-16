@@ -69,6 +69,14 @@ nav h2{
     font-weight: bold;
 }
 
+.nav-icon {
+    color: #1F3031;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
 .nav-link{
     display: flex;
     gap: 10%;
@@ -76,7 +84,7 @@ nav h2{
 }
 
 .nav-link a{
-    color: #000;
+    color: #1F3031;
     /* text-decoration: none; */
     font-weight: bold;
     cursor: pointer;
@@ -170,9 +178,8 @@ nav h2{
     display: flex;
     padding: 50px 5% 0 10%;
     gap: 1%;
-    
-    
 }
+
 .main2_info {
     display: flex;
 }
@@ -269,10 +276,6 @@ nav h2{
     margin: 1rem 0.5rem 0 0.5rem;
     text-align: justify;
 }
-
-/* .main3_img {
-    
-} */
 
 .image {
     width:100%;
